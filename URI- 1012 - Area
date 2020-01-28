@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+        float A,B,C;
+        double pi=3.14159,TRIANGULO,CIRCULO,TRAPEZIO,QUADRADO,RETANGULO;
+        Scanner input = new Scanner(System.in);
+        A=input.nextFloat();
+        B=input.nextFloat();
+        C=input.nextFloat();
+        TRIANGULO=A*C/2;
+        CIRCULO=pi*C*C;
+        TRAPEZIO=0.5*(A+B)*C;
+        QUADRADO=B*B;
+        RETANGULO=A*B;
+        System.out.printf("TRIANGULO: %.3f\n",TRIANGULO);
+        System.out.printf("CIRCULO: %.3f\n",CIRCULO);
+        System.out.printf("TRAPEZIO: %.3f\n",TRAPEZIO);
+        System.out.printf("QUADRADO: %.3f\n",QUADRADO);
+        System.out.printf("RETANGULO: %.3f\n",RETANGULO);
+    }
+    
+}
