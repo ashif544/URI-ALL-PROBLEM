@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+        int a,b,a1,b1;
+       double c,c1,pag,pag1,pag2;
+       Scanner in = new Scanner (System.in);
+       a=in.nextInt();
+       b=in.nextInt();
+       c=in.nextDouble();
+       pag1=b*c;
+       a1=in.nextInt();
+       b1=in.nextInt();
+       c1=in.nextDouble();
+       pag2=b1*c1;
+       pag=pag1+pag2;
+       System.out.printf("VALOR A PAGAR: R$ %.2f\n",pag);
+    }
+    
+}
