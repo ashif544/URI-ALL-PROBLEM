@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+        int x,y;
+      Scanner in = new Scanner (System.in);
+      x=in.nextInt();
+      y=x*2;
+      System.out.printf("%d minutos\n" , y);
+    }
+}
