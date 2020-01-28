@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+         int A,B,C,D,sum,sum1,sum2;
+      Scanner in = new Scanner(System.in);
+      A=in.nextInt();
+      B=in.nextInt();
+      C=in.nextInt();
+      D=in.nextInt();
+      sum1=C+D;
+      sum2=A+B;
+      if ((B>C) && (D>A) && (sum1>sum2)&& C>0 &&A>0 && A%2==0)
+      System.out.print("Valores aceitos\n");
+      else
+     System.out.print("Valores nao aceitos\n");
+    }
+    
+}
