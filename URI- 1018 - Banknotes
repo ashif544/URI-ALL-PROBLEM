@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+        int a,b,c,d,e,f,g,h,i,j,k,l,m,n,x;
+        Scanner input = new Scanner(System.in);
+        x=input.nextInt();
+        a=x/100;
+        b=x%100;
+        c=b/50;
+        d=b%50;
+        e=d/20;
+        f=d%20;
+        g=f/10;
+        h=f%10;
+        i=h/5;
+        j=h%5;
+        k=j/2;
+        l=j%2;
+        m=l/1;
+        n=l%1;
+        System.out.println(x);
+        System.out.println(a+" nota(s) de R$ 100,00");
+        System.out.println(c+" nota(s) de R$ 50,00");
+        System.out.println(e+" nota(s) de R$ 20,00");
+        System.out.println(g+" nota(s) de R$ 10,00");
+        System.out.println(i+" nota(s) de R$ 5,00");
+        System.out.println(k+" nota(s) de R$ 2,00");
+        System.out.println(m+" nota(s) de R$ 1,00");
+    }
+    
+}
