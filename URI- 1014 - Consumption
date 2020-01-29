@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+        Scanner input= new Scanner(System.in);
+        int A;
+        float B,average;
+        A=input.nextInt();
+        B=input.nextFloat();
+        average=A/B;
+        System.out.printf("%.3f km/l\n",average);
+    }
+    
+}
