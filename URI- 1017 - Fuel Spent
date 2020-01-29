@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+        float time,speed;
+        float liters,lpk;
+        lpk = 12;                //(liters per kilometers)
+        Scanner input =new Scanner(System.in);
+        time=input.nextInt();
+        speed=input.nextInt();
+        liters=time*speed/12;
+        System.out.printf("%.3f\n",liters);
+    }
+    
+}
