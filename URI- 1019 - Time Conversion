@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int second,h,m,s,a,b,c,o;
+        second=input.nextInt();
+        h=second/3600;
+        a=second%3600;
+        m=a/60;
+        b=a%60;
+        s=b;
+        System.out.println(h+":"+m+":"+s);
+    }
+}
