@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashif Sarker
+ */
+public class Main {
+    public static void main(String[] args) {
+        int x,a,b,y,m,d;
+        Scanner input = new Scanner (System.in);
+        x=input.nextInt();
+        y=x/365;
+        a=x%365;
+        m=a/30;
+        b=a%30;
+        d=b;
+        System.out.println(y+" ano(s)");
+        System.out.println(m+" mes(es)");
+        System.out.println(d+" dia(s)");
+    }
+    
+}
